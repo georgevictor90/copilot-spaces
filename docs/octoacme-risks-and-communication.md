@@ -38,5 +38,10 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
+- Team-level (Scrum Master facilitates) -> Project Manager -> Product Lead -> Sponsor
+- For technical architecture decisions: Developers -> Tech Lead -> Engineering Lead
+- For quality risks: QA Lead -> Project Manager -> Product Lead
+- For user experience concerns: UX Designer -> Product Manager -> Product Lead
 - For security incidents, follow the security incident runbook and notify Security on-call
+
+For detailed role interactions and collaboration, see [Persona Collaboration Checklist](persona-collaboration-checklist.md).
