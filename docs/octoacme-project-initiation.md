@@ -13,11 +13,13 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Decide go/no-go for planning
 
 ## Minimum Deliverables
-- Project One-pager (Problem, Goal, Success Metrics)
-- Stakeholder list & communication plan
+- Project One-pager (Problem, Goal, Success Metrics) - led by Product Manager
+- Stakeholder list & communication plan - coordinated by Project Manager
 - High-level timeline and key milestones
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
+
+For detailed role descriptions, see [OctoAcme Personas](octoacme-roles-and-personas.md).
 
 ## Project One-pager Template
 - Project name:

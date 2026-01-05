@@ -11,7 +11,8 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
-- Release notes drafted
+- Release notes drafted (by Technical Writer and Product Manager)
+- QA sign-off from QA Lead confirming testing complete
 - Rollback / mitigation plan documented
 - Smoke tests prepared
 
@@ -36,3 +37,5 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Notable changes:
 - Migration steps (if any):
 - Known issues:
+
+Release notes are authored by Technical Writer in collaboration with Product Manager. For role details, see [OctoAcme Personas](octoacme-roles-and-personas.md).

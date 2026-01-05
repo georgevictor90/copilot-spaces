@@ -4,9 +4,9 @@
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
 ## Team Rhythm
-- Daily standups (15 min) — focus on progress, blockers, dependencies
+- Daily standups (15 min) — facilitated by Scrum Master, focus on progress, blockers, dependencies
 - Weekly delivery sync — show progress, updates, and flagged risks
-- Demo/Review at the end of each sprint or milestone
+- Demo/Review at the end of each sprint or milestone (facilitated by Scrum Master or Product Manager)
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
@@ -17,11 +17,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
+- Unit tests for new logic (written by Developers)
 - Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
+- End-to-end smoke tests for critical flows before release (coordinated by QA Lead)
 - Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Manual QA for feature acceptance when needed (performed by QA Lead)
+- Usability validation for UX-critical features (validated by UX Designer)
+
+For detailed QA role responsibilities, see [OctoAcme Personas](octoacme-roles-and-personas.md).
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,9 +32,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
+- Level 1: Team-level triage in daily standup (Scrum Master facilitates)
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+
+For detailed escalation paths by role, see [Risk Management & Communication](octoacme-risks-and-communication.md).
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
