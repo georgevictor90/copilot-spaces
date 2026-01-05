@@ -4,7 +4,7 @@ Welcome — this folder centralizes OctoAcme's project management processes and 
 
 OctoAcme runs projects through a lightweight, stage-gated lifecycle: Initiation, Planning, Execution, Release, and Continuous Improvement. Initiation captures the problem, success metrics, stakeholders, and a Project One-pager. Planning turns approved initiatives into prioritized backlogs, estimates, and release maps. Execution follows an iterative cadence with a project board and PR-driven development, while Release and Deployment guidance ensures safe rollouts, rollback plans, and post-deploy verification.
 
-Roles and responsibilities are explicit: Project Managers coordinate delivery, schedules, risks, and stakeholder communications; Product Managers own outcomes, prioritization, and success criteria; Developers build and test solutions; QA validates acceptance criteria and run manual checks when needed. These personas appear across our templates and checklists to make ownership and handoffs clear.
+Roles and responsibilities are explicit: Project Managers coordinate delivery, schedules, risks, and stakeholder communications; Product Managers own outcomes, prioritization, and success criteria; Developers build and test solutions; Scrum Masters facilitate Agile ceremonies and remove blockers; UX Designers create user-centered designs; QA Leads define quality standards and coordinate testing; Technical Writers maintain documentation. These personas appear across our templates and checklists to make ownership and handoffs clear.
 
 Communication and quality practices are disciplined and repeatable: regular standups and weekly delivery syncs, milestone demos, and monthly stakeholder reports. We use a single source of truth for status (the project README/release doc), standard templates for weekly/incident updates, and an escalation path for blockers. Quality is enforced through CI (unit/integration tests, linting, security scans), smoke tests in staging, and pre-release checklists documented in the release guide.
 
@@ -17,6 +17,7 @@ Communication and quality practices are disciplined and repeatable: regular stan
 - [Release & Deployment Guide](octoacme-release-and-deployment.md)
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
 - [Roles & Personas](octoacme-roles-and-personas.md)
+- [Persona Collaboration Checklist](persona-collaboration-checklist.md)
 
 ## Acceptance Criteria
 - [x] Content aligns with existing process docs
